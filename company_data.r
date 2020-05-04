@@ -75,4 +75,4 @@ plot(model2)
 pred2<- predict.C5.0(model2, newdata=testing[,-1])
 CrossTable(testing$High,pred2)
 confusionMatrix(testing$High,pred2) #Accuracy is 83.64%
-plot(Model2,cex=0.5)
+plot(model2,cex=0.5)
